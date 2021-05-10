@@ -75,7 +75,7 @@ To use fontawesome icons, don't forget to add the fontawesome link in the `<head
 | Prop                     | Type      | Default                                         | Description                                    
 | :----------------------- | :-------: | :------:                                        | :--------------------------------
 | showIcon                 | `boolean` | true                                            | Show / Hide icon                     
-| icon                     | `element` | `<KeyboardArrowUpIcon style={{fontSize: 25}}/>` | You can use the icon of your choice as shown in the example code.
+| icon                     | `element` | `<KeyboardArrowUpIcon style={{fontSize: 25}}/>` | You can use the icon of your choice as shown in the [example code](#change-icon).
 | toShow                   | `number`  | 300                                             | To show the button by the value of scrollY
 
 <br>
