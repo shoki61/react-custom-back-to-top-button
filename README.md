@@ -1,6 +1,6 @@
 # react-custom-back-to-top-button
 
-Back to top button package that you can shape the way you want and put any icon you want in it :innocent:
+Back to top button package that you can shape the way you want and put any icon you want in it
 
 Install
 ======
@@ -16,7 +16,7 @@ or
 - @material-ui/core <br>
 - @material-ui/icons
 
-:exclamation: You do not need to install these two dependencies, they will be installed automatically when you install the package.
+:exclamation: You do not need to install these two dependencies, they will be installed automatically.
 
 <hr>
 
@@ -43,7 +43,7 @@ export default App;
 Change icon
 ===========
 
-You can pass the icon you like as props from font-awsome icons.<br>
+You can pass the icon you like as props from fontawesome icons.<br>
 
 Example code:
 ```jsx 
@@ -62,7 +62,7 @@ const App = () => {
 export default App;
 ```
 
-To use font-awesome icons, don't forget to add the font-awesome link in the `<head> </head>` section of your `index.html` file in the `public` folder. Add this link if you want:
+To use fontawesome icons, don't forget to add the fontawesome link in the `<head> </head>` section of your `index.html` file in the `public` folder. Add this link if you want:
 
 ```jsx
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
