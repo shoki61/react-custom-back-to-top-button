@@ -1,6 +1,6 @@
 {
   "name": "react-custom-back-to-top-button",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A react back to top button package",
   "main": "dist/index.js",
   "files": [
@@ -24,13 +24,18 @@
     "url": "https://github.com/shoki61/react-custom-back-to-top-button"
   },
   "contributors": [
-    {"name": "Murat Artan", "url": "https://www.npmjs.com/~murti", "email": "muratartan@hotmail.com"}
+    {
+      "name": "Murat Artan",
+      "url": "https://www.npmjs.com/~murti",
+      "email": "muratartan@hotmail.com"
+    }
   ],
   "homepage": "https://github.com/shoki61/react-custom-back-to-top-button#readme",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shoki61/react-custom-back-to-top-button/issues"
+  },
   "devDependencies": {
-    "@material-ui/core": "^4.11.4",
-    "@material-ui/icons": "^4.11.2",
     "@types/react": "^17.0.5",
     "@types/react-dom": "^17.0.3",
     "babel-core": "^6.26.3",
@@ -47,5 +52,9 @@
   "peerDependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/icons": "^4.11.2"
   }
 }
