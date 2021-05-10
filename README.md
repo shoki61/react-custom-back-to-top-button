@@ -1,19 +1,21 @@
 # react-custom-back-to-top-button
 
-Back to top button package that you can shape the way you want and put any icon you want in it
+Back to top button package allows you to set a button that can be shaped the way you want and put any icon in it
 
 Install
 ======
 
-`npm i react-custom-back-to-top-button`
-<br>
+```bash
+$ npm i react-custom-back-to-top-button
+```
 or
-<br>
-`yarn add react-custom-back-to-top-button`
+```bash
+$ yarn add react-custom-back-to-top-button
+```
 <hr>
 
 #### Dependencies
-- @material-ui/core <br>
+- @material-ui/core
 - @material-ui/icons
 
 :exclamation: You do not need to install these two dependencies, they will be installed automatically.
