@@ -1,0 +1,28 @@
+.CustomBackToTopButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    position: fixed;
+    z-index: 25000;
+    outline:none;
+    cursor:pointer;
+}
+
+.backToTopButton-enter {
+    opacity: 0;
+    transform: scale(0.9);
+}
+.backToTopButton-enter-active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 300ms, transform 300ms;
+}
+.backToTopButton-exit {
+    opacity: 1;
+}
+.backToTopButton-exit-active {
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 300ms, transform 300ms;
+}

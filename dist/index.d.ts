@@ -1,0 +1,21 @@
+import * as React from 'react';
+import './style.scss';
+export declare type IButtonProps = {
+    className?: string;
+    toShow?: number;
+    fontSize?: number | string;
+    showIcon?: boolean;
+    width?: number | string;
+    height?: number | string;
+    bottom?: number | string;
+    right?: number | string;
+    left?: number | string;
+    icon?: HTMLElement;
+    style?: object;
+    backgroundColor?: string;
+    color?: string;
+    borderRadius?: number | string;
+    children?: any;
+};
+declare const App: React.FC<IButtonProps>;
+export default App;
