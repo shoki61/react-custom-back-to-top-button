@@ -40,13 +40,12 @@ export default App;
 
 <hr>
 
-Change view
+Change icon
 ===========
-
 
 You can pass the icon you like as props from font-awsome icons.<br>
 
-Example code: 
+Example code:
 ```jsx 
 import React, { Fragment } from 'react';
 import BackToTop from 'react-custom-back-to-top-button';
@@ -76,23 +75,23 @@ To use font-awesome icons, don't forget to add the font-awesome link in the `<he
 | Prop                     | Type      | Default                                         | Description                                    
 | :----------------------- | :-------: | :------:                                        | :--------------------------------
 | showIcon                 | `boolean` | true                                            | Show / Hide icon                     
-| icon                     | `element` | <KeyboardArrowUpIcon style={{fontSize: 25}}/>   | [ top ](#change-icon) 
-| toShow                   | `number`  | 300                                             |  
+| icon                     | `element` | `<KeyboardArrowUpIcon style={{fontSize: 25}}/>` | You can use the icon of your choice as shown in the example code.
+| toShow                   | `number`  | 300                                             | To show the button by the value of scrollY
 
 <br>
 
 ## Style
 
-| Prop                  | Type      | Default             | Description                                    
-| :-------------------: | :-------: | :-----------------: | :--------------            
-| fontSize              | `number`  | 16                  |                       
-| width                 | `number`  | 3rem                |                         
-| height                | `number`  | 3rem                |    
-| bottom                | `number`  | 45                  |  
-| right                 | `number`  | 45                  |  
-| left                  | `number`  | null                | 
-| backgroundColor       | `string`  | '#363636'           | 
-| color                 | `string`  | '#fff'              |  
-| borderRadius          | `number`  | 100                 |
-| style                 | `Object`  | null                |  
-| className             | `string`  | null                |
+| Prop                  | Type      | Default     | Description                                    
+| :-------------------: | :-------: | :---------: | :--------------            
+| fontSize              | `number`  | 16          | Sets the size of the text you add to the button.                    
+| width                 | `number`  | 3rem        | Sets the width of the button                       
+| height                | `number`  | 3rem        | Sets the height of the button   
+| bottom                | `number`  | 45          | Sets how many px the button should go up from the bottom 
+| right                 | `number`  | 45          | Sets how many px the button should go from the right to the left 
+| left                  | `number`  | null        | Sets how many px the button should go from the left to the right
+| backgroundColor       | `string`  | '#363636'   | Sets the background color
+| color                 | `string`  | '#fff'      | Sets the color of the icon or text inside 
+| borderRadius          | `number`  | 100         | Sets the roundness of the border
+| style                 | `Object`  | null        | Takes the css properties you have created 
+| className             | `string`  | null        | Takes the class you have specified. Maybe you want to get a more pleasant appearance, for example to give the hover feature
