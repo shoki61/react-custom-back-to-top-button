@@ -19,6 +19,14 @@
     "react custom back to top button"
   ],
   "author": "Sohrat Jumadurdyyev",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shoki61/react-custom-back-to-top-button"
+  },
+  "contributors": [
+    {"name": "Murat Artan", "url": "https://www.npmjs.com/~murti", "email": "muratartan@hotmail.com"}
+  ],
+  "homepage": "https://github.com/shoki61/react-custom-back-to-top-button#readme",
   "license": "ISC",
   "devDependencies": {
     "@material-ui/core": "^4.11.4",
